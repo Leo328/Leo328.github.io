@@ -1,0 +1,198 @@
+/* Color palette 
+dark blue = #0d3b66
+white = #f0edee
+light blue = #087ca7
+orange = #ee964b
+light grey = #d3d0cb
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+	color: #d3d0cb;
+}
+
+h1 {
+	font-size: 90px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+h3 {
+	margin-bottom: 5px;
+}
+
+a {
+	color: #EF233C;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	background: #0d3b66;
+}
+
+.content-wrap {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+}
+
+.column-narrow {
+	width: 35%;
+	float: left;
+	padding-right: 4%;
+}
+.column-wide {
+	width: 61%;
+	float: left;
+}
+
+.uppercase {
+	/*text-transform: uppercase;*/
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.btn {
+	text-decoration: none;
+	background: #EF233C;
+	color: white;
+	padding: 10px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+	padding-top: 75px;
+}
+
+header, footer {
+	background: #087ca7;
+	padding-bottom: 0;
+	position: relative;
+}
+
+header h1, 
+header h2,
+header p {
+	color: #d3d0cb;
+	margin: 12px;
+}
+
+footer {
+	text-align: center;
+	color: #d3d0cb;
+}
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+}
+
+.profile-img {
+	border-radius: 25%;
+	float: left;
+}
+
+header .btn {
+	text-decoration: none;
+	background: #EF233C;
+	color: white;
+	padding: 10px;
+}
+
+.download {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+header .column-wide {
+	float: right;
+}
+
+/* Navigation
+------------------------------------*/
+nav {
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+	background: #d3d0cb;
+}
+
+.work h1, .work h2 {
+	color: black;
+}
+
+.work h3 {
+	font-style: italic;
+}
+
+h3 ~ p {
+	margin: 0;
+}
+
+.job-description p:first-of-type {
+	margin-top: 22px;
+	
+}
+.job-description p:last-child {
+	margin-bottom: 40px;
+}
+
+/* Education
+------------------------------------*/
+.education {
+	background: #0d3b66;
+}
+
+.education p,
+.education h1, 
+.education h2,
+.education h3 {
+	color: #d3d0cb ;
+}
+
+.education h2 {
+	font-size: 50px
+}
+
+.education h3 {
+	font-size: 1.4em;
+}
+
