@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 90px;
+	font-size: 85px;
 }
 
 h2 {
@@ -94,7 +94,7 @@ header h1,
 header h2,
 header p {
 	color: #d3d0cb;
-	margin: 12px;
+	margin: 10px;
 }
 
 footer {
